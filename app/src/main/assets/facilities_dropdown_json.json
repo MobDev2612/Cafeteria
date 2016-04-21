@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Bagmane Tech Park",
+    "status": "0",
+    "offers": [],
+    "specials": []
+  },
+    {
+    "id": 2,
+    "name": "Swing 1 - Embassy TechVillage",
+    "status": "1",
+    "offers": [],
+    "specials": []
+  },
+  {
+    "id": 3,
+    "name": "Swing 2 - Embassy TechVillage",
+    "status": "2",
+    "offers": [
+      {
+        "id": 1,
+        "title": "Offer 1",
+        "description": "Buy 2 get 1 offer on regular Pizza Delight",
+        "vend0rId": 1,
+        "vendorName": "Pizza Hut",
+        "imageUrl": "",
+        "price": 250
+      },
+      {
+        "id": 2,
+        "title": "Offer 2",
+        "description": "Buy 3 get 2 offer on regular Pizza Delight",
+        "vend0rId": 1,
+        "vendorName": "Pizza Hut",
+        "imageUrl": "",
+        "price": 250
+      }
+    ],
+    "specials": [
+      {
+        "id": 1,
+        "title": " Special Offer 1",
+        "description": "Todays special Mashroom Delight Pizza",
+        "vend0rId": 1,
+        "vendorName": "Pizza Hut",
+        "imageUrl": "",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Swing 3 - Embassy TechVillage",
+    "status": "0",
+    "offers": [],
+    "specials": []
+  }
+]

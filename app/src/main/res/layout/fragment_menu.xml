@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.persistent.cafeteria.Fragment.MenuFragment">
+
+    <GridView
+        android:id="@+id/menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/menu_footer"
+        android:columnWidth="150dp"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+    <LinearLayout
+        android:id="@+id/menu_footer"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/menu_add_to_cart"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:background="@color/dark_red"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/add_to_cart"
+            android:drawableTop="@drawable/ic_shopping_cart"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_weight="1" />
+
+        <Button
+            android:visibility="gone"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:background="@color/dark_red"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/add_to_favorite"
+            android:drawableTop="@drawable/ic_heart"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/menu_add_to_my_menu"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:background="@color/dark_red"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:drawableTop="@drawable/ic_person"
+            android:text="@string/add_to_my_menu"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
